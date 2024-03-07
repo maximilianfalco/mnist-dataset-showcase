@@ -1,0 +1,23 @@
+#container-box {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+  #canvas-container {
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+  }
+
+    #canvas {
+      width: 280px;
+      height: 280px;
+      border: 2px solid black;
+      background-color: black;
+      margin: auto;
+    }
+  
+  #reset-canvas-button {
+    margin-right: 2px;
+}
